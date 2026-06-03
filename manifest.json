@@ -1,1 +1,74 @@
-{}
+{
+  "http://librasoft.us/ver/Full_Libra_setup.zip": {
+    "contentLength": 102044413,
+    "lastModified": "Wed, 25 Mar 2026 08:34:06 GMT",
+    "assetName": "Full_Libra_setup.zip",
+    "url": "https://github.com/Tirador1/librasoft-downloads/releases/download/files/Full_Libra_setup.zip"
+  },
+  "http://librasoft.us/ver/libraSoft_setup.zip": {
+    "contentLength": 102943921,
+    "lastModified": "Wed, 03 Jun 2026 13:37:45 GMT",
+    "assetName": "libraSoft_setup.zip",
+    "url": "https://github.com/Tirador1/librasoft-downloads/releases/download/files/libraSoft_setup.zip"
+  },
+  "http://librasoft.us/ver/WindowsInstaller-KB893803-v2-x86.exe": {
+    "contentLength": 2585872,
+    "lastModified": "Wed, 03 Apr 2019 08:23:50 GMT",
+    "assetName": "WindowsInstaller-KB893803-v2-x86.exe",
+    "url": "https://github.com/Tirador1/librasoft-downloads/releases/download/files/WindowsInstaller-KB893803-v2-x86.exe"
+  },
+  "http://librasoft.us/ver/SQL_EXPRESS_2025_x64_ENU.zip": {
+    "contentLength": 749261926,
+    "lastModified": "Sat, 03 Jan 2026 10:12:32 GMT",
+    "assetName": "SQL_EXPRESS_2025_x64_ENU.zip",
+    "url": "https://github.com/Tirador1/librasoft-downloads/releases/download/files/SQL_EXPRESS_2025_x64_ENU.zip"
+  },
+  "http://librasoft.us/ver/SQLEXPR_x64_ENU.exe": {
+    "contentLength": 86525456,
+    "lastModified": "Wed, 03 Apr 2019 08:23:23 GMT",
+    "assetName": "SQLEXPR_x64_ENU.exe",
+    "url": "https://github.com/Tirador1/librasoft-downloads/releases/download/files/SQLEXPR_x64_ENU.exe"
+  },
+  "http://librasoft.us/ver/SQLEXPR_2014_x32_ENU.zip": {
+    "contentLength": 175135315,
+    "lastModified": "Wed, 03 Apr 2019 08:21:18 GMT",
+    "assetName": "SQLEXPR_2014_x32_ENU.zip",
+    "url": "https://github.com/Tirador1/librasoft-downloads/releases/download/files/SQLEXPR_2014_x32_ENU.zip"
+  },
+  "http://librasoft.us/ver/SQLEXPR_2014_x64_ENU.zip": {
+    "contentLength": 207538064,
+    "lastModified": "Wed, 03 Apr 2019 08:21:55 GMT",
+    "assetName": "SQLEXPR_2014_x64_ENU.zip",
+    "url": "https://github.com/Tirador1/librasoft-downloads/releases/download/files/SQLEXPR_2014_x64_ENU.zip"
+  },
+  "http://librasoft.us/ver/DotNetFX35.zip": {
+    "contentLength": 65344775,
+    "lastModified": "Wed, 03 Apr 2019 08:06:26 GMT",
+    "assetName": "DotNetFX35.zip",
+    "url": "https://github.com/Tirador1/librasoft-downloads/releases/download/files/DotNetFX35.zip"
+  },
+  "http://librasoft.us/ver/CRRuntime_64bit_13_0_5.msi": {
+    "contentLength": 83437568,
+    "lastModified": "Tue, 12 May 2020 03:48:18 GMT",
+    "assetName": "CRRuntime_64bit_13_0_5.msi",
+    "url": "https://github.com/Tirador1/librasoft-downloads/releases/download/files/CRRuntime_64bit_13_0_5.msi"
+  },
+  "http://librasoft.us/ver/CRRuntime_32bit_13_0_5.msi": {
+    "contentLength": 75867136,
+    "lastModified": "Tue, 12 May 2020 03:47:58 GMT",
+    "assetName": "CRRuntime_32bit_13_0_5.msi",
+    "url": "https://github.com/Tirador1/librasoft-downloads/releases/download/files/CRRuntime_32bit_13_0_5.msi"
+  },
+  "http://librasoft.us/ver/wr_3.7_corporate.exe": {
+    "contentLength": 1366162,
+    "lastModified": "Wed, 03 Apr 2019 08:23:52 GMT",
+    "assetName": "wr_3.7_corporate.exe",
+    "url": "https://github.com/Tirador1/librasoft-downloads/releases/download/files/wr_3.7_corporate.exe"
+  },
+  "http://librasoft.us/ver/TeamViewerQS_ar-idccwzzaf7.exe": {
+    "contentLength": 17405136,
+    "lastModified": "Wed, 03 Apr 2019 08:23:47 GMT",
+    "assetName": "TeamViewerQS_ar-idccwzzaf7.exe",
+    "url": "https://github.com/Tirador1/librasoft-downloads/releases/download/files/TeamViewerQS_ar-idccwzzaf7.exe"
+  }
+}
