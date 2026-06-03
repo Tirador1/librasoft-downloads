@@ -1,0 +1,45 @@
+name: Sync downloads
+
+on:
+  schedule:
+    - cron: "0 3 * * *" # daily at 03:00 UTC
+  workflow_dispatch: {} # manual "Run workflow" button
+
+permissions:
+  contents: write # upload Release assets + commit the manifest
+
+concurrency:
+  group: sync-downloads
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Run sync
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }} # gh CLI auth (this repo)
+          MIRROR_REPO: ${{ github.repository }}
+          RELEASE_TAG: files
+          SOURCE_INDEX_URL: http://librasoft.us/downloads.html
+          CONVEX_SITE_URL: ${{ secrets.CONVEX_SITE_URL }}
+          DOWNLOADS_SYNC_SECRET: ${{ secrets.DOWNLOADS_SYNC_SECRET }}
+        run: node sync.mjs
+
+      - name: Commit manifest changes
+        run: |
+          if ! git diff --quiet manifest.json; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add manifest.json
+            git commit -m "chore: update downloads manifest"
+            git push
+          else
+            echo "No manifest changes."
+          fi
